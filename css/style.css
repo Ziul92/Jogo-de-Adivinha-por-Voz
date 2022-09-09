@@ -1,0 +1,35 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap");
+body {
+  background-color: #0AA1DD;
+  color: #E8F9FD;
+}
+
+.secao {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  min-height: 100vh;
+  text-align: center;
+  font-family: "Montserrat", sans-se rif;
+}
+.secao__titulo {
+  font-size: 5em;
+}
+.secao__texto {
+  font-size: 2em;
+  margin-top: 20px;
+}
+.secao__mensagem {
+  font-size: 1.5em;
+  margin-top: 15px;
+}
+.secao__mensagem--box {
+  border: 2px solid #E8F9FD;
+  padding: 10px;
+  display: inline-block;
+  font-size: 4em;
+  margin: 15px;
+}
+
+/*# sourceMappingURL=style.css.map */
