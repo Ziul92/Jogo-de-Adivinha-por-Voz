@@ -1,7 +1,7 @@
 const numero = document.querySelectorAll("[data-valor]")
 
-const menorValor = 90
-const maiorValor = 100
+const menorValor = 1
+const maiorValor = 10000
 const numeroAleatorio = gerarNumeroAleatorio()
 
 function gerarNumeroAleatorio() {

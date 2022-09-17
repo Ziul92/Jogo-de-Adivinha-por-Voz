@@ -13,14 +13,17 @@
     <section class="secao">
         <h1 class="secao__titulo">Acerte o número secreto</h1>
         <p class="secao__texto">O número secreto está entre <span id="menor" data-valor="menor">0</span> e <span id="maior" data-valor="maior">100</span></p>
-        <div id="chute" class="secao__mensagem">
-            <div>Você disse:</div>
-            <span class="secao__mensagem--box">20</span>
-            <div>O número secreto é maior <i class="fa-solid fa-arrow-up"></i></div>
+        <div id="chute" class="secao__mensagem" data-chute>
+            <!-- <div>Você disse:</div>
+            <span class="secao__mensagem--box">20</span
+            <div>O número secreto é maior <i class="fa-solid fa-arrow-up"></i></div> 
+            <button class="secao__botao" data-botao>Jogar novamente</button> -->
         </div>        
     </section>
 
     
 </body>
-    <script type="module" src="js/sorteiaNumero.js"></script>
+    <script src="js/sorteiaNumero.js"></script>
+    <script src="js/reconhecimentoDeVoz.js"></script>
+    <script src="js/validacao.js"></script>
 </html>

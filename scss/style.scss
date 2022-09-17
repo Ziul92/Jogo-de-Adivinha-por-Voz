@@ -43,5 +43,13 @@ body {
             margin: 15px;
         }
     }
+
+    &__botao {
+        background-color: $cor-primaria;
+        border: 0px;
+        padding: 8px;
+        font-size: 20px;
+        margin-top: 20px;
+    }
 }
 

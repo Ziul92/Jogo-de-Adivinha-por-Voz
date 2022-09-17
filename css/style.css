@@ -31,5 +31,12 @@ body {
   font-size: 4em;
   margin: 15px;
 }
+.secao__botao {
+  background-color: #E8F9FD;
+  border: 0px;
+  padding: 8px;
+  font-size: 20px;
+  margin-top: 20px;
+}
 
 /*# sourceMappingURL=style.css.map */
